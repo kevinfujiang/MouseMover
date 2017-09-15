@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8F7C7C11F6A98BC0017226D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C7C01F6A98BC0017226D /* AppDelegate.swift */; };
+		D8F7C7C31F6A98BC0017226D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C7C21F6A98BC0017226D /* ViewController.swift */; };
+		D8F7C7C51F6A98BC0017226D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F7C7C41F6A98BC0017226D /* Assets.xcassets */; };
+		D8F7C7C81F6A98BC0017226D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F7C7C61F6A98BC0017226D /* Main.storyboard */; };
+		D8F7C7D31F6A98BC0017226D /* MouseMoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C7D21F6A98BC0017226D /* MouseMoverTests.swift */; };
+		D8F7C7DE1F6A98BC0017226D /* MouseMoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C7DD1F6A98BC0017226D /* MouseMoverUITests.swift */; };
+		D8F7C7EC1F6A9ADA0017226D /* KeyPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F7C7EB1F6A9ADA0017226D /* KeyPress.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8F7C7CF1F6A98BC0017226D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F7C7B51F6A98BC0017226D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F7C7BC1F6A98BC0017226D;
+			remoteInfo = MouseMover;
+		};
+		D8F7C7DA1F6A98BC0017226D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8F7C7B51F6A98BC0017226D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8F7C7BC1F6A98BC0017226D;
+			remoteInfo = MouseMover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8F7C7BD1F6A98BC0017226D /* MouseMover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MouseMover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F7C7C01F6A98BC0017226D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8F7C7C21F6A98BC0017226D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8F7C7C41F6A98BC0017226D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8F7C7C71F6A98BC0017226D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8F7C7C91F6A98BC0017226D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F7C7CE1F6A98BC0017226D /* MouseMoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MouseMoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F7C7D21F6A98BC0017226D /* MouseMoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseMoverTests.swift; sourceTree = "<group>"; };
+		D8F7C7D41F6A98BC0017226D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F7C7D91F6A98BC0017226D /* MouseMoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MouseMoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F7C7DD1F6A98BC0017226D /* MouseMoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseMoverUITests.swift; sourceTree = "<group>"; };
+		D8F7C7DF1F6A98BC0017226D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F7C7EB1F6A9ADA0017226D /* KeyPress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPress.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8F7C7BA1F6A98BC0017226D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F7C7CB1F6A98BC0017226D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F7C7D61F6A98BC0017226D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8F7C7B41F6A98BC0017226D = {
+			isa = PBXGroup;
+			children = (
+				D8F7C7BF1F6A98BC0017226D /* MouseMover */,
+				D8F7C7D11F6A98BC0017226D /* MouseMoverTests */,
+				D8F7C7DC1F6A98BC0017226D /* MouseMoverUITests */,
+				D8F7C7BE1F6A98BC0017226D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8F7C7BE1F6A98BC0017226D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8F7C7BD1F6A98BC0017226D /* MouseMover.app */,
+				D8F7C7CE1F6A98BC0017226D /* MouseMoverTests.xctest */,
+				D8F7C7D91F6A98BC0017226D /* MouseMoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F7C7BF1F6A98BC0017226D /* MouseMover */ = {
+			isa = PBXGroup;
+			children = (
+				D8F7C7C01F6A98BC0017226D /* AppDelegate.swift */,
+				D8F7C7EB1F6A9ADA0017226D /* KeyPress.swift */,
+				D8F7C7C21F6A98BC0017226D /* ViewController.swift */,
+				D8F7C7C41F6A98BC0017226D /* Assets.xcassets */,
+				D8F7C7C61F6A98BC0017226D /* Main.storyboard */,
+				D8F7C7C91F6A98BC0017226D /* Info.plist */,
+			);
+			path = MouseMover;
+			sourceTree = "<group>";
+		};
+		D8F7C7D11F6A98BC0017226D /* MouseMoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F7C7D21F6A98BC0017226D /* MouseMoverTests.swift */,
+				D8F7C7D41F6A98BC0017226D /* Info.plist */,
+			);
+			path = MouseMoverTests;
+			sourceTree = "<group>";
+		};
+		D8F7C7DC1F6A98BC0017226D /* MouseMoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F7C7DD1F6A98BC0017226D /* MouseMoverUITests.swift */,
+				D8F7C7DF1F6A98BC0017226D /* Info.plist */,
+			);
+			path = MouseMoverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8F7C7BC1F6A98BC0017226D /* MouseMover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F7C7E21F6A98BC0017226D /* Build configuration list for PBXNativeTarget "MouseMover" */;
+			buildPhases = (
+				D8F7C7B91F6A98BC0017226D /* Sources */,
+				D8F7C7BA1F6A98BC0017226D /* Frameworks */,
+				D8F7C7BB1F6A98BC0017226D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MouseMover;
+			productName = MouseMover;
+			productReference = D8F7C7BD1F6A98BC0017226D /* MouseMover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8F7C7CD1F6A98BC0017226D /* MouseMoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F7C7E51F6A98BC0017226D /* Build configuration list for PBXNativeTarget "MouseMoverTests" */;
+			buildPhases = (
+				D8F7C7CA1F6A98BC0017226D /* Sources */,
+				D8F7C7CB1F6A98BC0017226D /* Frameworks */,
+				D8F7C7CC1F6A98BC0017226D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8F7C7D01F6A98BC0017226D /* PBXTargetDependency */,
+			);
+			name = MouseMoverTests;
+			productName = MouseMoverTests;
+			productReference = D8F7C7CE1F6A98BC0017226D /* MouseMoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8F7C7D81F6A98BC0017226D /* MouseMoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F7C7E81F6A98BC0017226D /* Build configuration list for PBXNativeTarget "MouseMoverUITests" */;
+			buildPhases = (
+				D8F7C7D51F6A98BC0017226D /* Sources */,
+				D8F7C7D61F6A98BC0017226D /* Frameworks */,
+				D8F7C7D71F6A98BC0017226D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8F7C7DB1F6A98BC0017226D /* PBXTargetDependency */,
+			);
+			name = MouseMoverUITests;
+			productName = MouseMoverUITests;
+			productReference = D8F7C7D91F6A98BC0017226D /* MouseMoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8F7C7B51F6A98BC0017226D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Wirecard;
+				TargetAttributes = {
+					D8F7C7BC1F6A98BC0017226D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4RSCFV7GSQ;
+						ProvisioningStyle = Automatic;
+					};
+					D8F7C7CD1F6A98BC0017226D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4RSCFV7GSQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8F7C7BC1F6A98BC0017226D;
+					};
+					D8F7C7D81F6A98BC0017226D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4RSCFV7GSQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D8F7C7BC1F6A98BC0017226D;
+					};
+				};
+			};
+			buildConfigurationList = D8F7C7B81F6A98BC0017226D /* Build configuration list for PBXProject "MouseMover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8F7C7B41F6A98BC0017226D;
+			productRefGroup = D8F7C7BE1F6A98BC0017226D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8F7C7BC1F6A98BC0017226D /* MouseMover */,
+				D8F7C7CD1F6A98BC0017226D /* MouseMoverTests */,
+				D8F7C7D81F6A98BC0017226D /* MouseMoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8F7C7BB1F6A98BC0017226D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F7C7C51F6A98BC0017226D /* Assets.xcassets in Resources */,
+				D8F7C7C81F6A98BC0017226D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F7C7CC1F6A98BC0017226D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F7C7D71F6A98BC0017226D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8F7C7B91F6A98BC0017226D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F7C7C31F6A98BC0017226D /* ViewController.swift in Sources */,
+				D8F7C7C11F6A98BC0017226D /* AppDelegate.swift in Sources */,
+				D8F7C7EC1F6A9ADA0017226D /* KeyPress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F7C7CA1F6A98BC0017226D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F7C7D31F6A98BC0017226D /* MouseMoverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F7C7D51F6A98BC0017226D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F7C7DE1F6A98BC0017226D /* MouseMoverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8F7C7D01F6A98BC0017226D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8F7C7BC1F6A98BC0017226D /* MouseMover */;
+			targetProxy = D8F7C7CF1F6A98BC0017226D /* PBXContainerItemProxy */;
+		};
+		D8F7C7DB1F6A98BC0017226D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8F7C7BC1F6A98BC0017226D /* MouseMover */;
+			targetProxy = D8F7C7DA1F6A98BC0017226D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8F7C7C61F6A98BC0017226D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8F7C7C71F6A98BC0017226D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8F7C7E01F6A98BC0017226D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8F7C7E11F6A98BC0017226D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D8F7C7E31F6A98BC0017226D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4RSCFV7GSQ;
+				INFOPLIST_FILE = MouseMover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan..MouseMover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D8F7C7E41F6A98BC0017226D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4RSCFV7GSQ;
+				INFOPLIST_FILE = MouseMover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan..MouseMover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D8F7C7E61F6A98BC0017226D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4RSCFV7GSQ;
+				INFOPLIST_FILE = MouseMoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan..MouseMoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MouseMover.app/Contents/MacOS/MouseMover";
+			};
+			name = Debug;
+		};
+		D8F7C7E71F6A98BC0017226D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4RSCFV7GSQ;
+				INFOPLIST_FILE = MouseMoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan..MouseMoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MouseMover.app/Contents/MacOS/MouseMover";
+			};
+			name = Release;
+		};
+		D8F7C7E91F6A98BC0017226D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4RSCFV7GSQ;
+				INFOPLIST_FILE = MouseMoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan..MouseMoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MouseMover;
+			};
+			name = Debug;
+		};
+		D8F7C7EA1F6A98BC0017226D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4RSCFV7GSQ;
+				INFOPLIST_FILE = MouseMoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johan..MouseMoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MouseMover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8F7C7B81F6A98BC0017226D /* Build configuration list for PBXProject "MouseMover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F7C7E01F6A98BC0017226D /* Debug */,
+				D8F7C7E11F6A98BC0017226D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8F7C7E21F6A98BC0017226D /* Build configuration list for PBXNativeTarget "MouseMover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F7C7E31F6A98BC0017226D /* Debug */,
+				D8F7C7E41F6A98BC0017226D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8F7C7E51F6A98BC0017226D /* Build configuration list for PBXNativeTarget "MouseMoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F7C7E61F6A98BC0017226D /* Debug */,
+				D8F7C7E71F6A98BC0017226D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8F7C7E81F6A98BC0017226D /* Build configuration list for PBXNativeTarget "MouseMoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F7C7E91F6A98BC0017226D /* Debug */,
+				D8F7C7EA1F6A98BC0017226D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8F7C7B51F6A98BC0017226D /* Project object */;
+}
